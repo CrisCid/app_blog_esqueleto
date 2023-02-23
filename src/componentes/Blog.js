@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Blog = () => {
     return (
         <div>
-            <h2>Blog</h2>
+            <h2>Blog </h2>
             <ul>
                 {posts.map((posts) => {
                     return <li key={posts.id}>
